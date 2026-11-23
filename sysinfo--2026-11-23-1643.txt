@@ -1,0 +1,131 @@
+===== Система =====
+Linux ramtop 7.3.5-arch1-1 #1 SMP PREEMPT_DYNAMIC Tue, 17 Nov 2026 22:28:33 +0000 x86_64 GNU/Linux
+
+===== Время работы и нагрузка =====
+ 16:43:32 up  4:09,  1 user,  load average: 1.12, 1.16, 1.37
+
+===== Информация о дистрибутиве =====
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
+
+===== Процессор =====
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  12
+On-line CPU(s) list:                     0-11
+Vendor ID:                               GenuineIntel
+Model name:                              12th Gen Intel(R) Core(TM) i5-12450H
+CPU family:                              6
+Model:                                   154
+Thread(s) per core:                      2
+Core(s) per socket:                      8
+Socket(s):                               1
+Stepping:                                3
+Microcode version:                       0x43b
+CPU(s) scaling MHz:                      19%
+CPU max MHz:                             4400.0000
+CPU min MHz:                             400.0000
+BogoMIPS:                                4992.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities
+Virtualization:                          VT-x
+L1d cache:                               320 KiB (8 instances)
+L1i cache:                               384 KiB (8 instances)
+L2 cache:                                7 MiB (5 instances)
+L3 cache:                                12 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-11
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Mitigation; Clear Register File
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+===== Нагрузка за 5 секунд =====
+procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st gu
+ 1  1 205580 659848   1900 8187296   2   13   374   688 7602   18  7  4 88  1  0  0
+ 0  0 205580 659136   1900 8187364   0    0     0     0 2444 8011  2  2 96  0  0  0
+ 1  0 205580 681652   1900 8187364   0    0     0    24 2827 7721  4  2 94  0  0  0
+ 0  0 205580 681192   1900 8186852   0    0     0     0 2037 7249  2  2 96  0  0  0
+ 0  0 205580 680688   1900 8186852   0    0     0     0 1936 7173  2  2 96  0  0  0
+
+===== Топ-10 процессов по CPU =====
+    PID USER     %CPU %MEM COMMAND
+   2522 ipram    13.8  5.3 firefox
+   3331 ipram    12.2  5.2 Isolated Web Co
+   1868 ipram     9.7  0.8 Hyprland
+  11837 ipram     9.6  5.7 Isolated Web Co
+  32175 ipram     7.8  3.4 Isolated Web Co
+   1920 ipram     7.5  1.1 noctalia
+  24932 ipram     5.7  5.2 Telegram
+   2062 ipram     4.8  0.1 wireplumber
+   2937 ipram     3.1  0.2 pipewire-pulse
+  10862 ipram     3.0  1.9 steam
+
+===== Топ-10 процессов по памяти =====
+    PID USER     %MEM %CPU COMMAND
+  11837 ipram     5.7  9.6 Isolated Web Co
+   2522 ipram     5.3 13.8 firefox
+  24932 ipram     5.2  5.7 Telegram
+   3331 ipram     5.2 12.2 Isolated Web Co
+   2955 ipram     4.9  2.6 Isolated Web Co
+   3089 ipram     4.1  0.5 Isolated Web Co
+  32175 ipram     3.4  7.8 Isolated Web Co
+  11045 ipram     3.1  2.5 steamwebhelper
+  10901 ipram     3.0  2.1 steamwebhelper
+  26840 ipram     2.1  0.6 Isolated Web Co
+
+===== Свободное место =====
+Filesystem        Size  Used Avail Use% Mounted on
+dev               7.7G     0  7.7G   0% /dev
+run               7.7G  1.7M  7.7G   1% /run
+efivarfs          268K   96K  168K  37% /sys/firmware/efi/efivars
+/dev/mapper/root  476G  127G  347G  27% /
+tmpfs             7.7G   68M  7.7G   1% /dev/shm
+none              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/mapper/root  476G  127G  347G  27% /home
+tmpfs             7.7G   19M  7.7G   1% /tmp
+/dev/mapper/root  476G  127G  347G  27% /var/cache/pacman/pkg
+/dev/mapper/root  476G  127G  347G  27% /var/log
+/dev/nvme0n1p1   1022M  134M  889M  14% /boot
+tmpfs             1.6G  7.8M  1.6G   1% /run/user/1000
+
+===== Использование inode =====
+Filesystem        Inodes IUsed   IFree IUse% Mounted on
+dev              1994314   604 1993710    1% /dev
+run              2010641  1082 2009559    1% /run
+efivarfs               0     0       0     - /sys/firmware/efi/efivars
+/dev/mapper/root       0     0       0     - /
+tmpfs            2010641    89 2010552    1% /dev/shm
+none                1024     1    1023    1% /run/credentials/systemd-journald.service
+/dev/mapper/root       0     0       0     - /home
+tmpfs            1048576   636 1047940    1% /tmp
+/dev/mapper/root       0     0       0     - /var/cache/pacman/pkg
+/dev/mapper/root       0     0       0     - /var/log
+/dev/nvme0n1p1         0     0       0     - /boot
+tmpfs             402128   100  402028    1% /run/user/1000
